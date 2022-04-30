@@ -1,6 +1,6 @@
 module.exports = {
   extends: [],
-  ignoreFiles: ["build/**"],
+  ignoreFiles: ["build/**, src/**"],
   plugins: [
     "stylelint-high-performance-animation",
     // https://github.com/AndyOGo/stylelint-declaration-strict-value#user-content-usage
